@@ -1,0 +1,1155 @@
+{
+  "summary": {
+    "baseline": {
+      "mean_entropy": 2.3992233276367188,
+      "std_entropy": 0.8874253034591675,
+      "mean_confidence": 0.5690139532089233
+    },
+    "pca_384": {
+      "mean_entropy": 3.265608549118042,
+      "percent_change": 36.1110725402832,
+      "p_value": 0.0,
+      "cohens_d": 1.221
+    },
+    "pca_192": {
+      "mean_entropy": 3.4376754760742188,
+      "percent_change": 43.28284454345703,
+      "p_value": 0.0,
+      "cohens_d": 1.535
+    },
+    "pca_96": {
+      "mean_entropy": 3.6513619422912598,
+      "percent_change": 52.1893310546875,
+      "p_value": 0.0,
+      "cohens_d": 1.839
+    },
+    "noise_0.05": {
+      "mean_entropy": 2.3247861862182617,
+      "percent_change": -3.1025516986846924,
+      "p_value": 0.4036,
+      "cohens_d": -0.09
+    }
+  },
+  "all_results": [
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 1.232309103012085,
+      "confidence": 0.7815946936607361,
+      "problem_idx": 0
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 4.415698051452637,
+      "confidence": 0.22783321142196655,
+      "problem_idx": 1
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.200486421585083,
+      "confidence": 0.6246779561042786,
+      "problem_idx": 2
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 0.969172477722168,
+      "confidence": 0.8411667943000793,
+      "problem_idx": 3
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.388166904449463,
+      "confidence": 0.5862102508544922,
+      "problem_idx": 4
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 1.3874821662902832,
+      "confidence": 0.7618079781532288,
+      "problem_idx": 5
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.3491668701171875,
+      "confidence": 0.5882473587989807,
+      "problem_idx": 6
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.743835926055908,
+      "confidence": 0.43473637104034424,
+      "problem_idx": 7
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.966482639312744,
+      "confidence": 0.386790007352829,
+      "problem_idx": 8
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 3.524219512939453,
+      "confidence": 0.3408471345901489,
+      "problem_idx": 9
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 1.269239068031311,
+      "confidence": 0.799103319644928,
+      "problem_idx": 10
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.0139048099517822,
+      "confidence": 0.6302965879440308,
+      "problem_idx": 11
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 3.246046543121338,
+      "confidence": 0.46214932203292847,
+      "problem_idx": 12
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 1.0838878154754639,
+      "confidence": 0.8206425905227661,
+      "problem_idx": 13
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.0195960998535156,
+      "confidence": 0.6307979226112366,
+      "problem_idx": 14
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 3.3529701232910156,
+      "confidence": 0.41735443472862244,
+      "problem_idx": 15
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.856651544570923,
+      "confidence": 0.5009996891021729,
+      "problem_idx": 16
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.4764106273651123,
+      "confidence": 0.5257219672203064,
+      "problem_idx": 17
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.493462562561035,
+      "confidence": 0.5886116623878479,
+      "problem_idx": 18
+    },
+    {
+      "condition": "Baseline",
+      "intervention": "none",
+      "parameter": 0,
+      "entropy": 2.9952826499938965,
+      "confidence": 0.4306911528110504,
+      "problem_idx": 19
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 2.743889331817627,
+      "confidence": 0.46189215779304504,
+      "problem_idx": 0
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 4.173346519470215,
+      "confidence": 0.2711024880409241,
+      "problem_idx": 1
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.401010274887085,
+      "confidence": 0.3842115104198456,
+      "problem_idx": 2
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.174771785736084,
+      "confidence": 0.41637298464775085,
+      "problem_idx": 3
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.4185640811920166,
+      "confidence": 0.4161660969257355,
+      "problem_idx": 4
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 2.4478490352630615,
+      "confidence": 0.5504317879676819,
+      "problem_idx": 5
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.5344362258911133,
+      "confidence": 0.36684560775756836,
+      "problem_idx": 6
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.0152878761291504,
+      "confidence": 0.39071953296661377,
+      "problem_idx": 7
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.0757250785827637,
+      "confidence": 0.3724144995212555,
+      "problem_idx": 8
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.451246738433838,
+      "confidence": 0.37235400080680847,
+      "problem_idx": 9
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 2.5267088413238525,
+      "confidence": 0.5754002332687378,
+      "problem_idx": 10
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.3375625610351562,
+      "confidence": 0.43135061860084534,
+      "problem_idx": 11
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.6155214309692383,
+      "confidence": 0.40449368953704834,
+      "problem_idx": 12
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 2.446143627166748,
+      "confidence": 0.5665863156318665,
+      "problem_idx": 13
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.076935052871704,
+      "confidence": 0.4602660834789276,
+      "problem_idx": 14
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 4.088467121124268,
+      "confidence": 0.2707359194755554,
+      "problem_idx": 15
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.5896565914154053,
+      "confidence": 0.36428678035736084,
+      "problem_idx": 16
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.6988558769226074,
+      "confidence": 0.2932029664516449,
+      "problem_idx": 17
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.363178014755249,
+      "confidence": 0.42490020394325256,
+      "problem_idx": 18
+    },
+    {
+      "condition": "PCA-384",
+      "intervention": "pca",
+      "parameter": 384,
+      "entropy": 3.1330177783966064,
+      "confidence": 0.42527496814727783,
+      "problem_idx": 19
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.7420074939727783,
+      "confidence": 0.3462514281272888,
+      "problem_idx": 0
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.730165958404541,
+      "confidence": 0.3460330069065094,
+      "problem_idx": 1
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.75011944770813,
+      "confidence": 0.31009137630462646,
+      "problem_idx": 2
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.5982754230499268,
+      "confidence": 0.3259272277355194,
+      "problem_idx": 3
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 2.9033334255218506,
+      "confidence": 0.4900669753551483,
+      "problem_idx": 4
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.3802506923675537,
+      "confidence": 0.3824293911457062,
+      "problem_idx": 5
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.5471441745758057,
+      "confidence": 0.36624228954315186,
+      "problem_idx": 6
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.279043674468994,
+      "confidence": 0.35563066601753235,
+      "problem_idx": 7
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.102342128753662,
+      "confidence": 0.37521567940711975,
+      "problem_idx": 8
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.69659161567688,
+      "confidence": 0.3160255551338196,
+      "problem_idx": 9
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 2.7949094772338867,
+      "confidence": 0.519665002822876,
+      "problem_idx": 10
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.330512523651123,
+      "confidence": 0.43614497780799866,
+      "problem_idx": 11
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.622448682785034,
+      "confidence": 0.3645173907279968,
+      "problem_idx": 12
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 2.5963633060455322,
+      "confidence": 0.5293756127357483,
+      "problem_idx": 13
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.1547160148620605,
+      "confidence": 0.45247411727905273,
+      "problem_idx": 14
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.644944190979004,
+      "confidence": 0.356467068195343,
+      "problem_idx": 15
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.9498677253723145,
+      "confidence": 0.29065245389938354,
+      "problem_idx": 16
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.835253953933716,
+      "confidence": 0.3198396861553192,
+      "problem_idx": 17
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.497853994369507,
+      "confidence": 0.3792298138141632,
+      "problem_idx": 18
+    },
+    {
+      "condition": "PCA-192",
+      "intervention": "pca",
+      "parameter": 192,
+      "entropy": 3.5973665714263916,
+      "confidence": 0.3085654377937317,
+      "problem_idx": 19
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.59071683883667,
+      "confidence": 0.31417685747146606,
+      "problem_idx": 0
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.3085825443267822,
+      "confidence": 0.396258145570755,
+      "problem_idx": 1
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.533669948577881,
+      "confidence": 0.3696792423725128,
+      "problem_idx": 2
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.3717868328094482,
+      "confidence": 0.385812371969223,
+      "problem_idx": 3
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.4238669872283936,
+      "confidence": 0.3727029263973236,
+      "problem_idx": 4
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.423436164855957,
+      "confidence": 0.4011392593383789,
+      "problem_idx": 5
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 4.075437068939209,
+      "confidence": 0.28253334760665894,
+      "problem_idx": 6
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.4319729804992676,
+      "confidence": 0.3918135464191437,
+      "problem_idx": 7
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.8376569747924805,
+      "confidence": 0.3045072853565216,
+      "problem_idx": 8
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.475188732147217,
+      "confidence": 0.35403934121131897,
+      "problem_idx": 9
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.4185564517974854,
+      "confidence": 0.41073858737945557,
+      "problem_idx": 10
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 4.8693952560424805,
+      "confidence": 0.20539741218090057,
+      "problem_idx": 11
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.646721601486206,
+      "confidence": 0.35974541306495667,
+      "problem_idx": 12
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.2449212074279785,
+      "confidence": 0.3720601797103882,
+      "problem_idx": 13
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.365535259246826,
+      "confidence": 0.4262039065361023,
+      "problem_idx": 14
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.967622995376587,
+      "confidence": 0.30582916736602783,
+      "problem_idx": 15
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 4.0543437004089355,
+      "confidence": 0.3093438148498535,
+      "problem_idx": 16
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.7002012729644775,
+      "confidence": 0.3399218022823334,
+      "problem_idx": 17
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.376478910446167,
+      "confidence": 0.365902304649353,
+      "problem_idx": 18
+    },
+    {
+      "condition": "PCA-96",
+      "intervention": "pca",
+      "parameter": 96,
+      "entropy": 3.9111416339874268,
+      "confidence": 0.2664252519607544,
+      "problem_idx": 19
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 1.231424331665039,
+      "confidence": 0.7818211317062378,
+      "problem_idx": 0
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 4.416420936584473,
+      "confidence": 0.22775152325630188,
+      "problem_idx": 1
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.2004189491271973,
+      "confidence": 0.6247332096099854,
+      "problem_idx": 2
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 0.9678562879562378,
+      "confidence": 0.84140944480896,
+      "problem_idx": 3
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.3875341415405273,
+      "confidence": 0.5864240527153015,
+      "problem_idx": 4
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 1.385347843170166,
+      "confidence": 0.7623401880264282,
+      "problem_idx": 5
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.625842809677124,
+      "confidence": 0.5389264822006226,
+      "problem_idx": 6
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.742933511734009,
+      "confidence": 0.4349811375141144,
+      "problem_idx": 7
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.9664297103881836,
+      "confidence": 0.38678187131881714,
+      "problem_idx": 8
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 3.5242106914520264,
+      "confidence": 0.34088659286499023,
+      "problem_idx": 9
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 1.2683968544006348,
+      "confidence": 0.7992368936538696,
+      "problem_idx": 10
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.01370906829834,
+      "confidence": 0.6304266452789307,
+      "problem_idx": 11
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 3.2450613975524902,
+      "confidence": 0.46232080459594727,
+      "problem_idx": 12
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 1.0826300382614136,
+      "confidence": 0.8209130167961121,
+      "problem_idx": 13
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.018230676651001,
+      "confidence": 0.6310376524925232,
+      "problem_idx": 14
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 3.352409601211548,
+      "confidence": 0.4174536466598511,
+      "problem_idx": 15
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.856379508972168,
+      "confidence": 0.5010619759559631,
+      "problem_idx": 16
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.4741947650909424,
+      "confidence": 0.5261784195899963,
+      "problem_idx": 17
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.4926578998565674,
+      "confidence": 0.5888694524765015,
+      "problem_idx": 18
+    },
+    {
+      "condition": "Noise-0.01",
+      "intervention": "noise",
+      "parameter": 0.01,
+      "entropy": 2.9966020584106445,
+      "confidence": 0.43032631278038025,
+      "problem_idx": 19
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 1.2281758785247803,
+      "confidence": 0.7826730012893677,
+      "problem_idx": 0
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.7078006267547607,
+      "confidence": 0.5130101442337036,
+      "problem_idx": 1
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.2002954483032227,
+      "confidence": 0.6249380707740784,
+      "problem_idx": 2
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 0.9628461003303528,
+      "confidence": 0.8423359394073486,
+      "problem_idx": 3
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.3852152824401855,
+      "confidence": 0.5872422456741333,
+      "problem_idx": 4
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 1.3771363496780396,
+      "confidence": 0.7643959522247314,
+      "problem_idx": 5
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.6298680305480957,
+      "confidence": 0.5385889410972595,
+      "problem_idx": 6
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.73944091796875,
+      "confidence": 0.43593597412109375,
+      "problem_idx": 7
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.966350793838501,
+      "confidence": 0.3867298364639282,
+      "problem_idx": 8
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 3.5242979526519775,
+      "confidence": 0.3410361111164093,
+      "problem_idx": 9
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 1.2652671337127686,
+      "confidence": 0.7997362613677979,
+      "problem_idx": 10
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.013206720352173,
+      "confidence": 0.6309021711349487,
+      "problem_idx": 11
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 3.2413840293884277,
+      "confidence": 0.46297502517700195,
+      "problem_idx": 12
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 1.0781272649765015,
+      "confidence": 0.8219056725502014,
+      "problem_idx": 13
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.013298511505127,
+      "confidence": 0.6319215297698975,
+      "problem_idx": 14
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 3.3503060340881348,
+      "confidence": 0.41782888770103455,
+      "problem_idx": 15
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.8554208278656006,
+      "confidence": 0.501285195350647,
+      "problem_idx": 16
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.4655559062957764,
+      "confidence": 0.5279649496078491,
+      "problem_idx": 17
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 2.4898202419281006,
+      "confidence": 0.5898192524909973,
+      "problem_idx": 18
+    },
+    {
+      "condition": "Noise-0.05",
+      "intervention": "noise",
+      "parameter": 0.05,
+      "entropy": 3.0019097328186035,
+      "confidence": 0.42887020111083984,
+      "problem_idx": 19
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 1.2247662544250488,
+      "confidence": 0.7836160659790039,
+      "problem_idx": 0
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.7099266052246094,
+      "confidence": 0.5134774446487427,
+      "problem_idx": 1
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.200502872467041,
+      "confidence": 0.6251493692398071,
+      "problem_idx": 2
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 0.957186758518219,
+      "confidence": 0.8433917760848999,
+      "problem_idx": 3
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.382786273956299,
+      "confidence": 0.5881833434104919,
+      "problem_idx": 4
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 1.367643117904663,
+      "confidence": 0.7667953372001648,
+      "problem_idx": 5
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.635416269302368,
+      "confidence": 0.538074254989624,
+      "problem_idx": 6
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.735360860824585,
+      "confidence": 0.43707138299942017,
+      "problem_idx": 7
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.966559886932373,
+      "confidence": 0.38661912083625793,
+      "problem_idx": 8
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 3.5246646404266357,
+      "confidence": 0.3412100672721863,
+      "problem_idx": 9
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 1.2618764638900757,
+      "confidence": 0.8002871870994568,
+      "problem_idx": 10
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.0131986141204834,
+      "confidence": 0.6313962340354919,
+      "problem_idx": 11
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 3.237396240234375,
+      "confidence": 0.46371760964393616,
+      "problem_idx": 12
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 1.0736333131790161,
+      "confidence": 0.8229625225067139,
+      "problem_idx": 13
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.008317470550537,
+      "confidence": 0.6328561305999756,
+      "problem_idx": 14
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 3.347975969314575,
+      "confidence": 0.41824784874916077,
+      "problem_idx": 15
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.8545491695404053,
+      "confidence": 0.5015028119087219,
+      "problem_idx": 16
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.4552271366119385,
+      "confidence": 0.5301109552383423,
+      "problem_idx": 17
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 2.4871535301208496,
+      "confidence": 0.5908244252204895,
+      "problem_idx": 18
+    },
+    {
+      "condition": "Noise-0.1",
+      "intervention": "noise",
+      "parameter": 0.1,
+      "entropy": 3.0086207389831543,
+      "confidence": 0.4270588457584381,
+      "problem_idx": 19
+    }
+  ]
+}
